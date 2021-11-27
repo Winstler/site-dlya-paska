@@ -1,0 +1,124 @@
+<html>
+    <head>
+        <title>Рецепты</title>
+        <meta charset = "utf-8">
+        <link rel = "stylesheet" href = "./reset.css">
+        <link rel = "stylesheet" href = "./styles.css">
+        <script src = "./app.js"></script>
+        <link rel="shortcut icon" href="./images/icons/tab-icon.png" type="image/png">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@1,500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class = "logo">Рецепты</div>
+            <table align = right>
+                <tr>
+                    <td><div class = "linkBox"><a class = "headerLink" href = "#meat">Мясо</a></div></td>
+                    <td><div class = "linkBox"><a class = "headerLink" href = "#meat">Сладкое</a></div></td>
+                    <td><div class = "linkBox"><a class = "headerLink" href = "#meat">Супы</a></div></td>
+                    <td><div class = "linkBox"><a class = "headerLink" href = "#meat">Закуски</a></div></td>
+                </tr>
+            </table>
+        </header>
+        <img src = "./images/banner.jpg" class = "banner">
+        <div class = "bannerDiv"><p class = "bannerText">Окунись в мир гастрономического путешествия с лучшими рецептами</p></div>
+        <a name="meat" style = "z-index: 900; position: absolute; top: 90%;"></a>
+        <div class = "main">
+            <div class = "article">
+                <div class = "subGrid">
+                    <div class = "header">Мясные блюда</div>
+                    <div class = "meal1" onclick = "location.href='./recipes/1.html'">
+                        <p class = "mealHeader">Жаркое по-деревенски</p>
+                        <div class = "wrapper"><img class = 'mealImg' src = "./images/meat/img1.jpg" ></div>
+                        <p class = "description">Простое, но очень ароматное и вкусное блюдо для семейного обеда или ужина.</p>
+                    </div>
+                    <div class = "meal2" onclick = "location.href='./recipes/2.html'">
+                        <p class = "mealHeader">Рубленые куриные котлеты</p>
+                        <div class = "wrapper"><img class = 'mealImg' src = "./images/meat/img2.jpg" ></div>
+                        <p class = "description">Еда из серии "гости на пороге". Всего за 30 минут будет готово чудесное и нежное блюдо из куриной грудки.</p>
+                    </div>
+                    <div class = "meal3" onclick = "location.href='./recipes/3.html'">
+                        <p class = "mealHeader">Говяжий стейк</p>
+                        <div class = "wrapper"><img class = 'mealImg' src = "./images/meat/img3.jpg" ></div>
+                        <p class = "description">Классический рецепт божественного говяжего стейка, который тает во рту. Томатнй соус придаст еще больше вкуса.</p>
+                    </div>
+                </div>
+                <div class = "subGrid">
+                    <div class = "header">Сладости</div>
+                    <div class = "meal1" onclick = "location.href='./recipes/4.html'">
+                        <p class = "mealHeader">Шоколадный брауни</p>
+                        <div class = "wrapper"><img class = 'mealImg' src = "./images/sweat/sweat1.jpg" ></div>
+                        <p class = "description">Шоколадный брауни - вкусное лакомство, его насыщенный и нежный вкус какао порадует как малышей, так и взрослых. </p>
+                    </div>
+                    <div class = "meal2" onclick = "location.href='./recipes/5.html'">
+                        <p class = "mealHeader">Мороженое с какао</p>
+                        <div class = "wrapper"><img class = 'mealImg' src = "./images/sweat/sweat2.jpg" ></div>
+                        <p class = "description">Приготовленное мороженное из натуральных продуктов да еще и своими руками – такое станет просто настоящим кондитерским подарком для ваших домочадцев и гостей.</p>
+                    </div>
+                    <div class = "meal3" onclick = "location.href='./recipes/6.html'">
+                        <p class = "mealHeader">Банановый чизкейк</p>
+                        <div class = "wrapper"><img class = 'mealImg' src = "./images/sweat/sweat3.jpg" ></div>
+                        <p class = "description">Быстрый рецепт легкого и воздушного чизкейка с не совсем стнадартным банановым вкусов. Идеально подойдёт для незапланированных посиделок с друзьями.</p>
+                    </div>
+                </div>
+                <div class = "subGrid">
+                    <div class = "header">Супы</div>
+                    <div class = "meal1" onclick = "location.href='./recipes/7.html'">
+                        <p class = "mealHeader">Гречневый суп</p>
+                        <div class = "wrapper"><img class = 'mealImg' src = "./images/soup/soup1.jpg" ></div>
+                        <p class = "description">Для сытного и полезного обеда сварите наваристый гречневый суп с куриным филе и овощами.</p>
+                    </div>
+                    <div class = "meal2" onclick = "location.href='./recipes/8.html'">
+                        <p class = "mealHeader">Борщ</p>
+                        <div class = "wrapper"><img class = 'mealImg' src = "./images/soup/soup2.png" ></div>
+                        <p class = "description">Вкуснейший красный борщ, на мясном бульоне, со свежими овощами...</p>
+                    </div>
+                    <div class = "meal3" onclick = "location.href='./recipes/9.html'">
+                        <p class = "mealHeader">Томатный суп с кускусом</p>
+                        <div class = "wrapper"><img class = 'mealImg' src = "./images/soup/soup3.jpg" ></div>
+                        <p class = "description">Очень нежный и сытный томатный суп с необычной текстурой и вкусом.</p>
+                    </div>
+                </div>
+                <div class = "subGrid bot">
+                    <div class = "header">Закуски</div>
+                    <div class = "meal1" onclick = "location.href='./recipes/10.html'">
+                        <p class = "mealHeader">Канапе с колбасой и сыром</p>
+                        <div class = "wrapper"><img class = 'mealImg' src = "./images/zakus/zakus1.jpg" ></div>
+                        <p class = "description">Простая в приготовлении, красивая, вкусная праздничная закуска для семейного новогоднего меню - канапе с колбасой и сыро</p>
+                    </div>
+                    <div class = "meal2" onclick = "location.href='./recipes/11.html'">
+                        <p class = "mealHeader">Бутерброды на праздничный стол</p>
+                        <div class = "wrapper"><img class = 'mealImg' src = "./images/zakus/zakus2.jpg" ></div>
+                        <p class = "description">Для праздничного события с закусками предлагает вам приготовить бутерброды с салатом из крабовых палочек, огурцов и плавленого сыра.</p>
+                    </div>
+                    <div class = "meal3" onclick = "location.href='./recipes/12.html'">
+                        <p class = "mealHeader">Салат "Петушок"</p>
+                        <div class = "wrapper"><img class = 'mealImg' src = "./images/zakus/zakus3.jpg" ></div>
+                        <p class = "description">Раз в 12 лет, по Китайскому лунному календарю настаёт год "петуха". Как раз это блюдо и есть его символом.</p>
+                    </div>
+                </div>
+            </div>
+            <div class = "empty1"></div>
+            <div class = "empty2"></div>
+            <footer class = "footerGrid">
+                <p>Сделал Назар Михайлец</p>
+            </footer>
+        </div>
+    </body>
+</html>
